@@ -53,7 +53,7 @@ else{
 
         if(empty($idnummer)||empty($fname)||empty($ename)||empty($mobil)||empty($epost)){
 
-            $errorMessage="Alla Fält Måste Vara Ifylda";
+           $errorMessage="Alla Fält Måste Vara Ifylda";
             break;
         }
 
