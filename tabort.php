@@ -3,10 +3,10 @@ if (isset($_GET["id"])){
 
 $id=$_GET["id"];
 
-$servername="localhost";
-$username="root";
-$password="";
-$database="friends";
+$servername='remotemysql.com';
+$username='TNc9n7Q4wO';
+$password='4ho7UVCSBM';
+$database='TNc9n7Q4wO';
 
 $connection=new mysqli($servername,$username,$password,$database);
 
